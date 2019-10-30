@@ -1,0 +1,291 @@
+*{
+    margin:0;
+    padding:0;  
+    box-sizing:border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+body{
+color:gray;
+}
+section{
+    padding:4rem 5rem;
+}
+
+a{
+    text-decoration: none;
+    padding-bottom: 3rem;
+
+}
+li{
+    list-style: none;
+}
+
+/* header section */
+header{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.712)),url("../img/background.jpg");
+    height:100vh;
+    background-size: 100%;
+    background-attachment:fixed;
+}
+.mobile-icon{
+    font-size:2rem;
+    color:white !important;
+    display:none;
+    text-align: right;
+}
+.navigation{
+    display:flex;
+    justify-content: flex-end;
+}
+.nav-line{
+    font-size:1rem;
+    margin-right:1.5rem;
+    margin-top:2rem;
+    padding-bottom: 0.3rem;
+    border-bottom: 0.1rem solid transparent;
+}
+
+.white-anchors{
+    color:white;
+}
+.nav-line:hover{
+    border-bottom: 0.1rem solid cyan;
+}
+
+.showcase{
+position: absolute;
+    top:18rem;
+    left:20rem;
+}
+.main-heading{
+    line-height: 140%;
+    word-spacing: 0.2rem;
+    font-size: 3rem;;
+    color: white; 
+}
+
+.btns{
+    margin-top:2rem;
+    margin-left:1rem;
+    color:white;
+}
+
+.btn{
+    display:inline-block;
+    color:white;
+    margin-right: 1rem;
+    padding: 1rem;
+    background-color: rgb(127, 255, 155);
+    border-radius: 4rem;
+    border:0.2rem solid rgb(127, 255, 155);
+    transition:transform 0.3s,color 0.3s, background-color 0.3s;
+}
+
+.btn-empty{
+    color:rgb(127, 255, 155);
+    background-color: transparent;
+}
+.btn:hover{
+    transform: scale(1.2);
+}
+.btn-empty:hover{
+    color:white;
+    background-color:rgb(127, 255, 155);
+}
+/* sfeatures section */
+.details{
+    display:flex;
+    justify-content: justify;
+}
+
+.overview{
+    text-align: center;
+}
+
+h2{
+    text-align: center;
+    font-weight: 500;
+    font-size: 2rem;
+}
+.heading-para{
+    padding:0.8rem;
+    margin: 2rem 15rem;
+}
+
+.icon{
+    color:green;
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+    padding-left: 6rem;
+}
+h2::after{
+    content:"";
+    border-width:0.1rem;
+    color:green;
+    display:block;
+    border-bottom:solid;
+    margin:0rem 35rem;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+h3{
+    margin-bottom: 1.2rem;
+    font-weight: 500;
+}
+.details-para{
+    padding-right: 2rem;
+    line-height: 150%;
+}
+/* how-to section */
+.how-to{
+    background-color: rgb(238, 238, 238);
+}
+.how-to-container{
+    display:flex;
+     margin-right: 8rem;
+}
+
+.iphone{
+    width: 18%;
+    margin:3rem 11rem;
+}
+
+.step-container:first-child{
+    margin-top: 6rem;
+}
+
+.step-container div{
+    color:rgb(73, 158, 73);
+    height: 3.5rem;
+    width: 3.5rem;
+    text-align: center;
+    padding-top: 1rem;
+    border-radius: 50%;
+    border-color: rgb(73, 158, 73);
+    border-style: solid;
+    margin-bottom:1rem;
+    /* border-width: 0.7rem; */
+}
+
+.how-to-para{
+    margin-left: 4rem;
+    font-size:1.2rem;
+    line-height: 160%;
+    font-size:1.1rem;
+}
+
+.play{
+    margin-top: 4rem;
+}
+
+.iplay{
+    padding-right:1.2rem;
+}
+
+.step-val{
+    float:left;
+}
+.clear-fix::after{
+    content:"";
+    clear:both;
+    display:table;
+}
+/* cities section */
+.cities-container{
+    display:flex;
+    margin-left:4.2rem;
+    margin-bottom: 5rem;
+    margin-top: 2rem;
+}
+.city-container{
+    height:19rem;
+    width: 15rem;
+    margin:1.1rem; 
+}
+.citypic{
+    width: 97%;
+    margin-bottom: 1rem;
+
+}
+.p4{
+    width:95%;
+}
+.city-info{
+    display:flex;
+}
+.icon2{
+    color: green;
+    font-size: 1.2rem;
+    margin-right: 1rem;
+    margin-bottom:0.8rem;
+}
+.cityh3{
+    font-size: 1.3rem;
+    margin-bottom: 1.3rem;
+}
+.city-info{
+    font-size: 1.1rem;
+}
+.citylink{
+    color: green;
+}
+
+/* Comments section */
+.comments{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.39),rgba(0, 0, 0, 0.808)),url("../img/cherries-coffee-coffee-drink-131044.jpg");
+    height:75vh;
+    background-size: 100%;
+    background-attachment:fixed; 
+}
+.customers-parent{
+    display:flex;
+    margin:2rem 7rem;
+}
+.comments-heading,blockquote,cite{
+    color: white;
+    font-weight:100;
+}
+blockquote{
+    font-style: italic;
+    margin-bottom:2.6rem;
+    
+}
+blockquote::before{
+    content: "\201C";
+    font-size: 350%;
+    display: block;
+}
+.customer{
+    height: 21rem;
+    width: 21rem;
+    font-size: 1rem;
+    padding: 1.5rem;
+}
+
+.customer-img{
+    border-radius: 50%;
+    height: 3.1rem;
+}
+
+/* Sign up section */
+form{
+    margin: 2rem 18rem;
+}
+.form-group{
+    padding:0.5rem;
+    font-size: 1.2rem;
+}
+input,select,button{
+    margin-left: 3rem;
+}
+
+.sticky {
+    background-color:white;
+    width: 100%;
+    padding: 1rem;
+    position: fixed;
+
+}
+.sticky ul li .white-anchors{
+    color:black;
+}

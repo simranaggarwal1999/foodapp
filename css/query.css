@@ -1,0 +1,52 @@
+/* large tablets */
+@media only screen and (max-width:1200px){
+  
+}
+/* tablets */
+@media only screen and (max-width:850px){
+   
+}
+/* mobile screens */
+@media only screen and (max-width:650px){
+    *{
+        font-size: 90%;
+    }
+    
+    section{
+        display: block;
+    }
+    .details{
+        display:block;
+    }
+    .how-to-container{
+    display:block;
+}
+.cities-container{
+    display:block;
+}
+.city-info{
+    display:block;
+}
+.customers-parent{
+    display:block;
+}
+.mobile-icon{
+    display:block;
+    padding-right: 1rem;
+    padding-top: 1rem;
+}
+.navigation{
+    display:block;
+    padding-left:40%;
+}
+.active{
+    display:none;
+}
+/* header section */
+header{
+    background-repeat: no-repeat;
+    background-size: 190%;
+    height:100vh;
+    
+}
+}
