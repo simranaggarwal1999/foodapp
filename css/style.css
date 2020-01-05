@@ -266,10 +266,62 @@ blockquote::before{
     border-radius: 50%;
     height: 3.1rem;
 }
+/* Cost section */
+.cost{
+    background-color: #dfe6e9;
+}
+
+.cost-parent{
+    display:flex; 
+    margin-left:7rem;  
+}
+.cost-container{
+    background-color: white;
+    padding:2rem;
+    margin:2rem;
+    border-radius: 1rem;
+}
+.costh3{
+    margin:1rem 0rem;
+    color: green;
+    font-size: 1.8rem;
+}
+.cost-child{
+    margin:1.5rem 0rem;
+}
+.abtns{
+    display:inline-block;
+    margin-left:2rem;
+    padding:2rem;
+    color:black;
+}
+.abtn{
+    padding: 1rem 3rem;
+    color:white;
+    background-color: green;
+    border-radius: 4rem;
+    border: 0.2rem solid green;
+    transition: transform 0.3s, color 0.3s,background-color 0.3s;
+}
+
+.abtn-empty{
+    padding: 1rem 3rem;
+    color:black;
+    border: 0.2rem solid green;
+    border-radius: 4rem;
+    background-color: transparent;
+}
+.abtn-hover{
+    transform: scale(1.2);
+}
+.abtn-empty:hover{
+    color: white;
+    background-color: green;
+}
 
 /* Sign up section */
 form{
-    margin: 2rem 18rem;
+    margin: 2rem 15rem;
 }
 .form-group{
     padding:0.5rem;
